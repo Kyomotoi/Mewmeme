@@ -1,76 +1,42 @@
-<center><h1> MemeBox </h1></center>
+<div align="center">
+    <img width="128" height="128" src="static/favicon.png">
+</div>
 
-<center>Website template for meme collection.</center>
+<center><h1> Mewmeme </h1></center>
+<center>上古时代闪耀之时</center>
 
 * * *
 
-### Description
+### 说明
 
-This template is extracted from [NoneMeme/NoneMeme](https://github.com/NoneMeme/NoneMeme).
+上古时代个个都是人才说话又好听，需要一个地方记录。
 
-MemeBox can contain various contents including images and markdown documents.
+### 什么是 meme
 
-### Build
+> 在互联网时代，"meme" 的含义演变为指互联网上流行的、经常以幽默、调侃、创意等方式表现出来的图像、视频、表情、口号等。这些 "meme" 可以迅速在社交媒体上传播，经常因其幽默、奇特或独特而引起人们的共鸣和关注，成为网络文化和互联网社交交流的一种表达方式。
 
-1. Prepare a `make` tool.
+### 贡献
 
-2. Generate your repo with this template.
+当然，非常欢迎。同时其操作也非常简单：
+1. Fork 本仓库。
+2. 准备想提交的 meme 图片：
+    - 内容应为同**上古时代**相关的梗图。
+    - 文件名应该简单明了地表达图片中想要表达的内容。
+3. 提交 meme 图片。
+    - 将图片放入 `meme` 文件夹中。
+    - 提交并发起 `Pull Request`。
 
-3. Clone your repo.
+### 删除
 
-4. Open a shell and switch to the repo directory.
+本仓库仅用于记录同**上古时代**群聊中相关梗，并不代表**上古时代**管理组的态度，也不会强迫任何内容“入典”。
 
-5. Run `make`.
+如有内容影响到**上古时代**的正常运营，或者被群内人员认为不应“入典”，或本人要求删除，可联系仓库负责人进行删除。
 
-    > NOTE: The default `PAGELANG` is now `en` (English).
-    >
-    > Read more info in [Custom text](#custom-text).
+### 协议
 
-6. Add your contents to `art/` (for documents) or `meme/` (for pictures).
+[MIT License](LICENSE).
 
-    > NOTE: MemeBox does **not** include any icon files.
-    >
-    > You should prepare your icons and put them into `static/` folder.
-    >
-    > See the output from make for more information.
-
-7. Commit and push.
-
-### Custom text
-
-Usually, you may expect to change some text rather than "MemeBox" etc.
-
-For this, you can define these temporary environment variables below to override the default:
-
-|Name|Description|
-|:----|:----|
-|PAGELANG|Page language mark for .html file, also decides the default text, e.g. "zh"|
-|TITLE|The title of your memebox, e.g. "MemeBox"|
-|DESC|A short description for your memebox, e.g. "Joy for Everyone"|
-|TDESC|A description for the text part|
-|FOOTER|Footer on every pages|
-
-Just like this:
-
-    PAGELANG=en TITLE=Foo DESC=Bar FOOTER="Lorem ipsum" make
-
-If the default text does not satisfy you, don't worry, they are also customizable with the way above:
-
-|Name|Description|
-|:----|:----|
-|T_MEMEPIC|Indicates a hyperlink jumping to picture page|
-|T_MEMETXT|Indicates a hyperlink jumping to text page|
-|T_DOWNLOAD|A hint for downloading a image|
-|T_ANOTHER|A hint for randomly picking a image|
-|T_BACK|A hint for leaving the full view|
-|T_ZOOMIN|A hint for entering the full view|
-|T_NIMGS|Images summary text|
-
-### License
-
-This template is under the [MIT License](LICENSE).
-
-### Special thanks
+### 特别感谢
 
 - **[modcrafts/a60-shop](https://github.com/modcrafts/a60-shop)**
 
