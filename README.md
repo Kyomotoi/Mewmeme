@@ -1,10 +1,8 @@
 <div align="center">
     <img width="128" height="128" src="static/favicon.png">
+    <h1>Mewmeme</h1>
+    上古时代闪耀之时
 </div>
-
-<center><h1> Mewmeme </h1></center>
-
-<center>上古时代闪耀之时</center>
 
 * * *
 
