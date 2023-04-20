@@ -36,6 +36,7 @@ export default {
     "meme/我是男酮.png",
     "meme/我是笨比.png",
     "meme/我的心.png",
+    "meme/报告想艾草.png",
     "meme/搞太猛了.png",
     "meme/摸你牛至.png",
     "meme/新体验.png",
